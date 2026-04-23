@@ -69,6 +69,7 @@ Stores ───────┤
 Promotions ───┤
 Calendar ─────┘
 ```
+In practice, stores in urban areas often respond differently to promotions compared to rural stores due to differences in purchasing power and customer preferences.
 
 ---
 
@@ -124,6 +125,8 @@ Past -------------------------------> Future
 
 * RMSE → penalizes large errors
 * MAE → average error
+
+I would monitor model performance using a rolling RMSE and retrain the model if performance drops beyond a predefined threshold.
 
 ---
 
